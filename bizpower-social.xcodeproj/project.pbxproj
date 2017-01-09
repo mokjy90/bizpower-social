@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18BE75181E20E9B500A27442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE75171E20E9B500A27442 /* AppDelegate.swift */; };
+		18BE751A1E20E9B500A27442 /* SigninVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE75191E20E9B500A27442 /* SigninVC.swift */; };
+		18BE751D1E20E9B500A27442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE751B1E20E9B500A27442 /* Main.storyboard */; };
+		18BE751F1E20E9B500A27442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE751E1E20E9B500A27442 /* Assets.xcassets */; };
+		18BE75221E20E9B500A27442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE75201E20E9B500A27442 /* LaunchScreen.storyboard */; };
+		18BE752A1E20ECFE00A27442 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BE75291E20ECFE00A27442 /* GoogleService-Info.plist */; };
+		48C84F1A59B988DB275DDEC3 /* Pods_bizpower_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 643261AD3857DDDDAB0B6522 /* Pods_bizpower_social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18BE75141E20E9B500A27442 /* bizpower-social.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bizpower-social.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE75171E20E9B500A27442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BE75191E20E9B500A27442 /* SigninVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninVC.swift; sourceTree = "<group>"; };
+		18BE751C1E20E9B500A27442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BE751E1E20E9B500A27442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BE75211E20E9B500A27442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BE75231E20E9B500A27442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BE75291E20ECFE00A27442 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		21892FF411F02F221AB0761C /* Pods-bizpower-social.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bizpower-social.release.xcconfig"; path = "Pods/Target Support Files/Pods-bizpower-social/Pods-bizpower-social.release.xcconfig"; sourceTree = "<group>"; };
+		643261AD3857DDDDAB0B6522 /* Pods_bizpower_social.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bizpower_social.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A937357131047BA8133AE8DC /* Pods-bizpower-social.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bizpower-social.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bizpower-social/Pods-bizpower-social.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BE75111E20E9B400A27442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C84F1A59B988DB275DDEC3 /* Pods_bizpower_social.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BE750B1E20E9B400A27442 = {
+			isa = PBXGroup;
+			children = (
+				18BE75161E20E9B500A27442 /* bizpower-social */,
+				18BE75151E20E9B500A27442 /* Products */,
+				DDEAAE13562F63677FC72DAF /* Pods */,
+				5E21EE9BC4ABC53F8FD52783 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BE75151E20E9B500A27442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BE75141E20E9B500A27442 /* bizpower-social.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BE75161E20E9B500A27442 /* bizpower-social */ = {
+			isa = PBXGroup;
+			children = (
+				18C20B791E2207AE00F6A88F /* Model */,
+				18C20B7B1E22082F00F6A88F /* Controller */,
+				18C20B7A1E2207E900F6A88F /* View */,
+				18BE75171E20E9B500A27442 /* AppDelegate.swift */,
+				18BE751B1E20E9B500A27442 /* Main.storyboard */,
+				18BE751E1E20E9B500A27442 /* Assets.xcassets */,
+				18BE75201E20E9B500A27442 /* LaunchScreen.storyboard */,
+				18BE75231E20E9B500A27442 /* Info.plist */,
+				18BE75291E20ECFE00A27442 /* GoogleService-Info.plist */,
+			);
+			path = "bizpower-social";
+			sourceTree = "<group>";
+		};
+		18C20B791E2207AE00F6A88F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18C20B7A1E2207E900F6A88F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		18C20B7B1E22082F00F6A88F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18BE75191E20E9B500A27442 /* SigninVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5E21EE9BC4ABC53F8FD52783 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				643261AD3857DDDDAB0B6522 /* Pods_bizpower_social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDEAAE13562F63677FC72DAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A937357131047BA8133AE8DC /* Pods-bizpower-social.debug.xcconfig */,
+				21892FF411F02F221AB0761C /* Pods-bizpower-social.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BE75131E20E9B400A27442 /* bizpower-social */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE75261E20E9B500A27442 /* Build configuration list for PBXNativeTarget "bizpower-social" */;
+			buildPhases = (
+				ACD8DD9C991EB3EA0973F299 /* [CP] Check Pods Manifest.lock */,
+				18BE75101E20E9B400A27442 /* Sources */,
+				18BE75111E20E9B400A27442 /* Frameworks */,
+				18BE75121E20E9B400A27442 /* Resources */,
+				0958C1AFA6EBDFAFC1F93EF9 /* [CP] Embed Pods Frameworks */,
+				61004AE2EBCBEB16B591E02B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bizpower-social";
+			productName = "bizpower-social";
+			productReference = 18BE75141E20E9B500A27442 /* bizpower-social.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BE750C1E20E9B400A27442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Mjy;
+				TargetAttributes = {
+					18BE75131E20E9B400A27442 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B2CKCQ6NCE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18BE750F1E20E9B400A27442 /* Build configuration list for PBXProject "bizpower-social" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BE750B1E20E9B400A27442;
+			productRefGroup = 18BE75151E20E9B500A27442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BE75131E20E9B400A27442 /* bizpower-social */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BE75121E20E9B400A27442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE75221E20E9B500A27442 /* LaunchScreen.storyboard in Resources */,
+				18BE752A1E20ECFE00A27442 /* GoogleService-Info.plist in Resources */,
+				18BE751F1E20E9B500A27442 /* Assets.xcassets in Resources */,
+				18BE751D1E20E9B500A27442 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0958C1AFA6EBDFAFC1F93EF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bizpower-social/Pods-bizpower-social-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61004AE2EBCBEB16B591E02B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bizpower-social/Pods-bizpower-social-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACD8DD9C991EB3EA0973F299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BE75101E20E9B400A27442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE751A1E20E9B500A27442 /* SigninVC.swift in Sources */,
+				18BE75181E20E9B500A27442 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18BE751B1E20E9B500A27442 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BE751C1E20E9B500A27442 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BE75201E20E9B500A27442 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BE75211E20E9B500A27442 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18BE75241E20E9B500A27442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BE75251E20E9B500A27442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BE75271E20E9B500A27442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A937357131047BA8133AE8DC /* Pods-bizpower-social.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2CKCQ6NCE;
+				INFOPLIST_FILE = "bizpower-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mjy.bizpower-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18BE75281E20E9B500A27442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21892FF411F02F221AB0761C /* Pods-bizpower-social.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B2CKCQ6NCE;
+				INFOPLIST_FILE = "bizpower-social/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Mjy.bizpower-social";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BE750F1E20E9B400A27442 /* Build configuration list for PBXProject "bizpower-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE75241E20E9B500A27442 /* Debug */,
+				18BE75251E20E9B500A27442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BE75261E20E9B500A27442 /* Build configuration list for PBXNativeTarget "bizpower-social" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE75271E20E9B500A27442 /* Debug */,
+				18BE75281E20E9B500A27442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BE750C1E20E9B400A27442 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>912415671537-ahkil1god3msgvk0iomgh986sk9mskhg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.912415671537-ahkil1god3msgvk0iomgh986sk9mskhg</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDppgW0RQ-y57LQsKCcTDS1LLR02F7p0nw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>912415671537</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Mjy.bizpower-social</string>
+	<key>PROJECT_ID</key>
+	<string>bizpower-social</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bizpower-social.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:912415671537:ios:57be16f09f75115b</string>
+	<key>DATABASE_URL</key>
+	<string>https://bizpower-social.firebaseio.com</string>
+</dict>
+</plist>

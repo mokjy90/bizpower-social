@@ -1,0 +1,6 @@
+framework module Pods_bizpower_social {
+  umbrella header "Pods-bizpower-social-umbrella.h"
+
+  export *
+  module * { export * }
+}
